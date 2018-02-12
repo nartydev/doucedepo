@@ -1,0 +1,20 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	margin:0;
+	padding:0;
+	background:#fff;
+    font-family:"Montserrat";
+    overflow-x: hidden;
+}
+
+$color-principal: #ffa8a8;
+
+
+@import 'header';
+@import 'content';
+@import 'slider';
+@import 'footer';
+@import 'animation';
