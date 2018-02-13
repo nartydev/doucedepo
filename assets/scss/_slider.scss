@@ -1,8 +1,5 @@
 .slider {
     height:630px;
-    background: #dd5e89; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #ffa8a8, #ff8787); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #ffa8a8, #ff8787); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
     position:relative;
 }
 
@@ -47,7 +44,6 @@ h2 {
     width: 30%;
     height:30%;
     margin-top:60px;
-    margin-left: 70px;
 }
 
 .selector-slider {
@@ -113,7 +109,6 @@ h2 {
 }
 
 .one-slide.active-slide {
-    top:0;
     opacity:1!important;
     transition:1s;
     animation: translateY 1s ease-in-out 1 forwards;
@@ -124,4 +119,3 @@ h2 {
     animation: translateX 1s ease-in-out 1 forwards;
     -webkit-animation: translateX 1s ease-in-out 1 forwards;
 }
-

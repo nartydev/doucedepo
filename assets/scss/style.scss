@@ -1,3 +1,6 @@
+$color-principal: #ffa8a8;
+$color-secondaire: #a6a6a6;
+
 * {
 	box-sizing:border-box;
 }
@@ -5,13 +8,10 @@
 body {
 	margin:0;
 	padding:0;
-	background:#fff;
+	background:$color-principal;
     font-family:"Montserrat";
     overflow-x: hidden;
 }
-
-$color-principal: #ffa8a8;
-
 
 @import 'header';
 @import 'content';

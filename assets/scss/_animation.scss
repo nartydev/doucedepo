@@ -1,13 +1,12 @@
 @keyframes translateX {
     0% {
         top:0;
-        opacity:1!important;
+        opacity:1;
     }
 
     50% {
-        left:130%;
+        top:-80%;
         opacity:1;
-        top:0;
     }
     55% {
         opacity:0;
@@ -24,7 +23,7 @@
 @-webkit-keyframes translateX {
     0% {
         top:0;
-        opacity:1!important;
+        opacity:1;
     }
 
     50% {
@@ -49,8 +48,8 @@
     }
 
     100% {
-        top:0;
-        opacity:1!important;
+        top:0px;
+        opacity:1;
     }
 }
 
@@ -62,8 +61,8 @@
     }
 
     100% {
-        top:0;
-        opacity:1!important;
+        top:0px;
+        opacity:1;
     }
 
 }

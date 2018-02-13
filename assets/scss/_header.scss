@@ -1,7 +1,9 @@
 header {
-    background:$color-principal;
-    padding:20px 0;
+    background-image: linear-gradient(to bottom, $color-principal, rgba(0,0,0,0));
+    padding:20px 0 50px;
     font-family: "Open Sans";
+    position: relative;
+    z-index:1000;
 }
 
 .logo {
@@ -26,4 +28,10 @@ nav ul li a {
 .active {
     border:1px solid #FFF;
     border-radius:5px;
+}
+
+.gradient {
+    background: #dd5e89; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffa8a8, #ff8787); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffa8a8, #ff8787); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 }
