@@ -1,0 +1,79 @@
+.container{
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.fiche{
+  margin-left: 200px
+}
+
+.imgProduct{
+  width: 30%;
+  height: 30%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.23);
+  border-radius: 50000000px;
+  margin-top: 50px;
+}
+
+.productTitle{
+  color: #ff8787;
+  font-family: "Montserrat";
+  font-weight : 500;
+}
+
+.productPrice{
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #a6a6a6
+}
+
+.select{
+  margin-top: 50px;
+}
+
+.list{
+  border-radius: 3px;
+  padding : 10px 60px 10px 10px;
+  font-family: "Montserrat";
+  color : #a6a6a6
+}
+
+.listColor{
+  margin-left: 12px;
+  padding-right: 200px;
+}
+
+.description{
+  margin-top : 60px;
+  padding-right: 250px;
+  font-family: "Montserrat";
+  color : #ff8787;
+  font-weight : 500;
+}
+
+.lavraidescription{
+  font-family: "Montserrat"
+
+}
+
+
+.lavraidescription ul li{
+  margin-top: 20px;
+}
+
+.buyButton{
+  background-color : #ff8787;
+  padding : 20px 10px;
+  font-family: "Montserrat";
+  border-radius: 3px;
+  margin-top: 20px;
+  display: flex;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.23)
+}
+
+.buyButton a{
+  color : white;
+  text-decoration: none;
+  text-align: center;
+}
