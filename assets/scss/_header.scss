@@ -3,7 +3,8 @@ header {
     padding:20px 0 50px;
     font-family: "Open Sans";
     position: relative;
-    z-index:1000;
+    z-index:100000;
+    transition:.2s;
 }
 
 .logo {
@@ -34,4 +35,14 @@ nav ul li a {
     background: #dd5e89; /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #ffa8a8, #ff8787); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #ffa8a8, #ff8787); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.menu-scroll {
+    position: fixed;
+    box-shadow: 0 2px 3px rgba(34, 36, 38, 0.15);
+    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+    color: #000;
+    width: 100%;
+    padding: 20px 0;
+    background: #fff;
 }

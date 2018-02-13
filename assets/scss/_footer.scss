@@ -1,0 +1,97 @@
+footer {
+    position:relative;
+    margin:40px 0 0 0;
+}
+
+footer:before {
+    content:'';
+    position:absolute;
+    background-image:url('../img/cloud.png');
+    position: absolute;
+    top:-120px;
+    width:100%;
+    height:120px;
+}
+
+.col-footer {
+    width:33.333%;
+    padding:50px 20px;
+}
+
+.title-footer {
+    text-transform:uppercase;
+    color:$color-principal;
+    text-align:center;
+    font-weight:500;
+}
+
+.desc-footer {
+    padding:30px 0 0 0;
+    font-size:14px;
+    color:$color-secondaire;
+    text-align:justify;
+}
+
+.navigation {
+    padding:0;
+    margin:30px 0 0 0;
+}
+
+.navigation li {
+    list-style:none;
+    color:#A6A6A6;
+    margin:0 0 10px 0px;
+    line-height:1.3;
+}
+
+.navigation li a {
+    text-decoration:none;
+    color:#A6A6A6;
+} 
+
+.pad-map {
+    padding-right:6px;
+}
+.pad-phone {
+    padding-right:3px;
+}
+
+
+.social-network {
+    padding:0;
+    margin:50px 0 0 0;
+    text-align:center;
+}
+
+.social-network li {
+    color:#fff;
+    list-style:none;
+    display:inline-block;
+    margin-right:15px;
+}
+
+.round {
+    border-radius:50%;
+    height:50px;width:50px;
+    text-align:center;
+    line-height:50px;
+    font-size:20px;
+}
+
+.fb {
+    background:#3b5998;
+}
+
+.instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.pinterest {
+    background:#bd081c;
+}
+
+.gplus {
+    background:#dd4b39;
+}
