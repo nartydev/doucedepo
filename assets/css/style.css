@@ -447,5 +447,39 @@ footer:before {
   100% {
     top: 0px;
     opacity: 1; } }
+@media screen and (max-width: 480px) {
+  .product, .col, .container {
+    width: 100%; }
+
+  .content-slider {
+    flex-wrap: wrap; }
+
+  .text-content-slider {
+    margin: 50px 14% 0 0px;
+    width: 100%; }
+
+  .img-slider {
+    width: 70%;
+    height: 70%;
+    margin-right: 60px; }
+
+  .col:first-child, .col:last-child {
+    padding: 0 40px; }
+
+  .product {
+    margin: 20px 40px;
+    height: 100%; }
+
+  .col-footer {
+    width: 100%; }
+
+  .slider {
+    height: 750px; }
+
+  .product:hover .desc-product {
+    transform: translateY(0%); }
+
+  .product:hover .black {
+    opacity: 0; } }
 
 /*# sourceMappingURL=style.css.map */

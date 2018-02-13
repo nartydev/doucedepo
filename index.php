@@ -3,7 +3,8 @@
 <head>
 	<title>DouceDePo</title>
 	<meta charset="utf-8"/>
-	<meta description="DouceDePo"/>
+    <meta description="DouceDePo"/>
+    <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,600,700" rel="stylesheet">	
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css?d=<?php echo rand(0,10000000000000000) ?>">
