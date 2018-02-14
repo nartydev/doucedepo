@@ -45,6 +45,7 @@ nav ul li a {
     width: 100%;
     padding: 20px 0;
     background: #fff;
+    top: 0;
 }
 
 #navResponsive {
@@ -76,4 +77,34 @@ nav ul li a {
 
 .menu-bar {
     display:none;
+}
+
+.basketIcon {
+    font-size: 14px;
+    border-radius: 50px;
+    background: #ff8686;
+    padding: 12px 15px;;
+    position: relative;
+    width:18%;
+    float:right;
+}
+
+.count-basket {
+    height:30px;width:30px;
+    background:#ffa8a8;
+    color:#fff;
+    border-radius:50%;
+    text-align:center;
+    line-height:30px;
+    position: absolute;
+    top: 16%;
+    right: 10px;
+}
+
+.size-menu {
+    width:40%;
+}
+
+.color-w {
+    color:#fff;
 }

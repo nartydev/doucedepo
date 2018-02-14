@@ -8,6 +8,7 @@
         background:#fff;
         font-family:"Bebas Neue";
         letter-spacing: .2px;
+        overflow:scroll;
         .between {
             flex-wrap: wrap;
         }
@@ -111,6 +112,29 @@
         height:100%;
         width:100%;
         padding:0 50px 30px;
+    }
+
+    .start-no-wrap {
+        flex-wrap: wrap;
+    }
+
+    .fiche {
+        margin-left:0px;
+        padding: 0 30px;
+    }
+
+    .imgProduct {
+        width: 90%;
+        height: 90%;
+        margin: 0 20px 40px;
+    }
+
+    .cloud-part {
+        margin: 150px 0;
+    }
+
+    .size-menu {
+        width:100%;
     }
     
 }

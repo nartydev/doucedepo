@@ -14,13 +14,13 @@
         <header class="menu">
             <div class="container between resize-container">
                 <a href="./index.php" title="DouceDePo"><img src="assets/img/logo-white.png" alt="DouceDePo" class="logo" /></a>
-                <nav>
+                <nav class="size-menu">
                     <div class="menu-resp">Menu</div>
                     <ul>
                         <li><a href="/index.php">Accueil</a></li>
                         <li><a href="/collection.php">Nos collections</a></li>
-                        <li><a href="/panier.php">Mon panier</a></li>
                         <li class="active"><a href="/compte.php">Mon compte</a></li>
+                        <li class="basketIcon"><a href="/panier.php"><div class="fa fa-shopping-basket color-w"></div><div class="count-basket">0</div></a></li>
                     </ul>
                 </nav>
             </div>
