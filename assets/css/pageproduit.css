@@ -57,19 +57,32 @@
 
 }
 
-
 .lavraidescription ul li{
   margin-top: 20px;
 }
 
-.buyButton{
+.containerBuy > div{
   background-color : #ff8787;
-  padding : 20px 10px;
+  padding : 20px 80px;
   font-family: "Montserrat";
   border-radius: 3px;
   margin-top: 20px;
-  display: flex;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.23)
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.23);
+  display: inline-block;
+}
+
+.buyButton img{
+  width: 7%;
+}
+
+.containerBuy .buyPanier{
+  display: inline;
+  padding: 20px;
+}
+
+.buyPanier img{
+  width: 8%;
+  padding: 10px;
 }
 
 .buyButton a{
