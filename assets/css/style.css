@@ -71,9 +71,12 @@ nav ul li a {
 
 @font-face {
   font-family: 'Bebas Neue';
-  src: url("./font/BebasNeue.otf") format("truetype");
+  src: url("../font/BebasNeue.otf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+.menu-bar {
+  display: none; }
+
 .container {
   width: 1200px;
   margin: 0 auto; }
@@ -197,7 +200,7 @@ h3 {
   overflow: visible; }
 
 .black {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: .5s;
   position: absolute;
@@ -239,6 +242,19 @@ h3 {
   margin: 60px auto 0;
   font-size: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.23); }
+
+.go-buy {
+  display: none;
+  margin: 70px 30px;
+  color: #fff;
+  padding: 15px 0;
+  border: 3px solid #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-decoration: none; }
+
+.product:hover .go-buy {
+  display: block; }
 
 .slider {
   height: 630px;
@@ -469,7 +485,7 @@ footer:before {
   100% {
     top: 0px;
     opacity: 1; } }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 740px) {
   .menu {
     width: 100%;
     position: fixed;
@@ -490,7 +506,8 @@ footer:before {
       padding: 15px 50px;
       font-size: 43px; }
     .menu div nav ul li a {
-      color: #ffa8a8; }
+      color: #ffa8a8;
+      text-align: left; }
     .menu .menu-resp {
       display: block;
       font-weight: 600;
@@ -499,7 +516,8 @@ footer:before {
       margin: 27px 0 0 27px;
       font-size: 36px;
       position: relative;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      letter-spacing: 1.2px; }
 
   .product, .col, .container, .col-footer {
     width: 100%; }
@@ -537,6 +555,27 @@ footer:before {
     position: absolute;
     top: 30px;
     right: 20px;
-    font-size: 30px; } }
+    font-size: 30px;
+    color: #A6A6A6; }
+
+  .menu-bar {
+    width: 100%;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 40px 20px;
+    box-shadow: 0 2px 3px rgba(34, 36, 38, 0.15);
+    display: block; }
+
+  .col-footer {
+    padding: 20px; }
+
+  .resize-container a {
+    text-align: center;
+    width: 100%; }
+
+  .logo {
+    height: 100%;
+    width: 100%;
+    padding: 0 50px 30px; } }
 
 /*# sourceMappingURL=style.css.map */

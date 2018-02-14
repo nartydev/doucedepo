@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 740px) {
     .menu {
         width:100%;
         position:fixed;
@@ -24,6 +24,7 @@
         }
         div nav ul li a {
             color:$color-principal;
+            text-align:left;
         }
 
         .menu-resp {
@@ -35,6 +36,7 @@
             font-size: 36px;
             position:relative;
             margin-bottom:20px;
+            letter-spacing: 1.2px;
         }
     }
 
@@ -84,6 +86,31 @@
         top: 30px;
         right: 20px;
         font-size: 30px;
+        color:#A6A6A6;
+    }
+
+    .menu-bar {
+        width:100%;
+        margin-bottom:20px;
+        background:#fff;
+        padding:40px 20px;
+        box-shadow: 0 2px 3px rgba(34, 36, 38, 0.15);
+        display:block;
+    }
+
+    .col-footer {
+        padding:20px;
+    }
+
+    .resize-container a {
+        text-align: center;
+        width: 100%;
+    }
+
+    .logo {
+        height:100%;
+        width:100%;
+        padding:0 50px 30px;
     }
     
 }

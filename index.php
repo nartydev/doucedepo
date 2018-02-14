@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<title>DouceDePo</title>
-	<meta charset="utf-8"/>
-    <meta description="DouceDePo"/>
-    <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,600,700" rel="stylesheet">	
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css?d=<?php echo rand(0,10000000000000000) ?>">
-</head>
-<body>
-    <div class="gradient">
-        <header class="menu">
-            <div class="container between resize-container">
-                <a href="./index.php" title="DouceDePo"><img src="assets/img/logo-white.png" alt="DouceDePo" class="logo" /></a>
-                <nav>
-                    <div class="menu-resp">Menu</div>
-                    <ul>
-                        <li><a href="/index.php">Accueil</a></li>
-                        <li><a href="/collection.php">Nos collections</a></li>
-                        <li><a href="/panier.php">Mon panier</a></li>
-                        <li class="active"><a href="/compte.php">Mon compte</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <div onclick="openNav()" id="navResponsive" class="fa fa-bars"></div>
+<?php require 'inc/header.php'; ?>
         <div class="slider">
             <div class="one-slide active-slide" slide-number="0">
                 <div class="container content-slider">
@@ -103,7 +76,7 @@
         </div>
         <div class="container start">
             <div class="product">
-                <div class="black"></div>
+                <div class="black"><a href="#" class="go-buy">Voir plus</a></div>
                 <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/oiseau-2-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
                 <div class="desc-product">
                     <div class="title-product">Oiseau musical Au Pays des Rêves</div>
@@ -112,7 +85,7 @@
                 </div> 
             </div>
             <div class="product">
-                <div class="black"></div>
+                <div class="black"><a href="#" class="go-buy">Voir plus</a></div>
                 <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/lapinou-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
                 <div class="desc-product">
                     <div class="title-product">Toudoux Lapinou Au Pays des Rêves</div>
@@ -121,7 +94,7 @@
                 </div> 
             </div>
             <div class="product">
-                <div class="black"></div>
+                <div class="black"><a href="#" class="go-buy">Voir plus</a></div>
                 <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/tapis-a-langer-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
                 <div class="desc-product">
                     <div class="title-product">Tapis à langer nomade Au Pays des Rêves</div>
@@ -130,7 +103,7 @@
                 </div> 
             </div>
             <div class="product">
-                <div class="black"></div>
+                <div class="black"><a href="#" class="go-buy">Voir plus</a></div>
                 <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/attache-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
                 <div class="desc-product">
                     <div class="title-product">Attache-tétine Au Pays des Rêves</div>
@@ -141,37 +114,4 @@
             <a href="#" class="button-white">Visiter la boutique</a>
         </div>
     </section>
-    <footer class="white dim-pad">
-        <div class="container start">
-            <div class="col-footer">
-                <div class="title-footer">contact</div>
-                <ul class="navigation">
-                    <li><i class="fa fa-map-marker pad-map"></i> 28 rue de Reims, 93160, Noisy le Grand, FRANCE</li>
-                    <li><i class="fa fa-phone pad-phone"></i> 06 25 35 87 36</li>
-                    <li><i class="fa fa-envelope"></i> doucedepo@gmail.com</li>
-
-                </ul>
-            </div>
-            <div class="col-footer">
-                <div class="title-footer">Navigation</div>
-                <ul class="navigation">
-                    <li><i class="fa fa-angle-right"></i> <a href="#" title="Accueil">Accueil</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href="#" title="Nos collections">CGV</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href="#" title="Nos collections">Contact</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href="#" title="Nos collections">Partenaires</a></li>
-                </ul>
-            </div>
-            <div class="col-footer">
-                <div class="title-footer">Nos réseaux sociaux</div>
-                <ul class="social-network">
-                    <li class="round fb"><i class="fa fa-facebook"></i></li>
-                    <li class="round instagram"><i class="fa fa-instagram"></i></li>
-                    <li class="round pinterest"><i class="fa fa-pinterest"></i></li>
-                    <li class="round gplus"><i class="fa fa-google-plus"></i></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <script src="assets/js/app.js?d=<?php echo rand(0,10000000000000000) ?>"></script>
-</body>
-</html>
+<?php require 'inc/footer.php' ?>

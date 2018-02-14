@@ -69,7 +69,11 @@ nav ul li a {
 
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('./font/BebasNeue.otf') format('truetype');
+    src: url('../font/BebasNeue.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+.menu-bar {
+    display:none;
 }
