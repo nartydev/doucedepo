@@ -11,10 +11,11 @@
 </head>
 <body>
     <div class="gradient">
-        <header>
+        <header class="menu">
             <div class="container between resize-container">
                 <a href="./index.php" title="DouceDePo"><img src="assets/img/logo-white.png" alt="DouceDePo" class="logo" /></a>
                 <nav>
+                    <div class="menu-resp">Menu</div>
                     <ul>
                         <li><a href="/index.php">Accueil</a></li>
                         <li><a href="/collection.php">Nos collections</a></li>
@@ -24,6 +25,7 @@
                 </nav>
             </div>
         </header>
+        <div onclick="openNav()" id="navResponsive" class="fa fa-bars"></div>
         <div class="slider">
             <div class="one-slide active-slide" slide-number="0">
                 <div class="container content-slider">
@@ -49,10 +51,10 @@
             </div>
             <div class="one-slide" slide-number="2">
                 <div class="container content-slider">
-                    <img src="assets/img/bavoir-1.png" alt="Slider 1" class="img-slider">
+                    <img src="assets/img/creatrive.png" alt="Slider 1" class="img-slider">
                     <div class="text-content-slider">
-                        <h2 class="title-slider">Linguerie pour bébé</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias voluptatem obcaecati accusantium aliquam unde eum vel aliquid sint quo autem.</p>
+                        <h2 class="title-slider">Pollenni Hin-Nguyen</h2>
+                        <p>Ancienne styliste modéliste dans le monde de l’enfance, j’ai décidé de devenir indépendante pour partager mon univers avec toutes les mamans qui comme moi, veulent des produits originaux et de qualité pour leurs enfants. Avec Douce de Po je peux enfin mener à bien mes projets, sans contraintes, et avoir une traçabilité parfaite du produit puisque tout est fait à la maison.</p>
                         <a href="#" title="En savoir plus" class="button-slider">En savoir plus</a>
                     </div>
                     <div class="clear"></div>

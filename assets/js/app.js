@@ -37,3 +37,26 @@ addEventListener("scroll", () => {
         borderColor.style.border = "1px solid #FFF"        
 	}
 });
+
+// RESPONSIVE MENU
+
+function openNav() {
+    
+        const icon = document.querySelector("#navResponsive");
+        const menu = document.querySelector(".menu");
+        const link = document.querySelectorAll(".menu a");
+    
+        if(icon.getAttribute('class') == "fa fa-bars") {
+            menu.style.left = "0px";
+            for(var i = 0; i < link.length; i++) {
+                link[i].style.display = "block";
+            }
+            icon.className = "fa fa-times";
+            icon.style.color = "black";
+        } else {
+            menu.style.left = "-100%";
+            icon.className = "fa fa-bars";
+            icon.style.color = "white";
+        }
+        
+    }

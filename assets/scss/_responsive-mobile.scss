@@ -1,5 +1,44 @@
 @media screen and (max-width: 480px) {
-    .product, .col, .container {
+    .menu {
+        width:100%;
+        position:fixed;
+        top:0;
+        bottom:0;
+        left:-100%;
+        background:#fff;
+        font-family:"Bebas Neue";
+        letter-spacing: .2px;
+        .between {
+            flex-wrap: wrap;
+        }
+        div nav {
+            display:block;
+        }
+
+        div nav ul li {
+            text-transform:uppercase;
+            font-weight:200;
+            width:100%;
+            padding:15px 50px;
+            font-size: 43px;
+        }
+        div nav ul li a {
+            color:$color-principal;
+        }
+
+        .menu-resp {
+            display:block;
+            font-weight: 600;
+            color: #a6A6A6;
+            text-transform: uppercase;
+            margin: 27px 0 0 27px;
+            font-size: 36px;
+            position:relative;
+            margin-bottom:20px;
+        }
+    }
+
+    .product, .col, .container, .col-footer {
         width:100%;
     }
 
@@ -8,14 +47,14 @@
     }
 
     .text-content-slider {
-        margin: 50px 14% 0 0px;
+        margin: 20px 14% 0 0px;
         width:100%;
     }
 
     .img-slider {
         width: 70%;
         height: 70%;
-        margin-right: 60px;
+        margin:0 60px 0 0;
     }
 
     .col:first-child, .col:last-child {
@@ -25,10 +64,6 @@
     .product {
         margin: 20px 40px;
         height: 100%;
-    }
-
-    .col-footer {
-        width:100%;
     }
 
     .slider {
@@ -42,4 +77,13 @@
     .product:hover .black {
         opacity:0;
     }
+
+    #navResponsive {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        font-size: 30px;
+    }
+    
 }

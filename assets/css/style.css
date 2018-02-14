@@ -52,6 +52,28 @@ nav ul li a {
   padding: 20px 0;
   background: #fff; }
 
+#navResponsive {
+  display: none;
+  color: #fff;
+  z-index: 100000; }
+
+.menu-resp {
+  display: none; }
+
+.menu-resp::after {
+  position: absolute;
+  top: 45%;
+  width: 50px;
+  background: #ffa8a8;
+  height: 2px;
+  right: 64%;
+  content: ''; }
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("./font/BebasNeue.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 .container {
   width: 1200px;
   margin: 0 auto; }
@@ -448,20 +470,51 @@ footer:before {
     top: 0px;
     opacity: 1; } }
 @media screen and (max-width: 480px) {
-  .product, .col, .container {
+  .menu {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    background: #fff;
+    font-family: "Bebas Neue";
+    letter-spacing: .2px; }
+    .menu .between {
+      flex-wrap: wrap; }
+    .menu div nav {
+      display: block; }
+    .menu div nav ul li {
+      text-transform: uppercase;
+      font-weight: 200;
+      width: 100%;
+      padding: 15px 50px;
+      font-size: 43px; }
+    .menu div nav ul li a {
+      color: #ffa8a8; }
+    .menu .menu-resp {
+      display: block;
+      font-weight: 600;
+      color: #a6A6A6;
+      text-transform: uppercase;
+      margin: 27px 0 0 27px;
+      font-size: 36px;
+      position: relative;
+      margin-bottom: 20px; }
+
+  .product, .col, .container, .col-footer {
     width: 100%; }
 
   .content-slider {
     flex-wrap: wrap; }
 
   .text-content-slider {
-    margin: 50px 14% 0 0px;
+    margin: 20px 14% 0 0px;
     width: 100%; }
 
   .img-slider {
     width: 70%;
     height: 70%;
-    margin-right: 60px; }
+    margin: 0 60px 0 0; }
 
   .col:first-child, .col:last-child {
     padding: 0 40px; }
@@ -470,9 +523,6 @@ footer:before {
     margin: 20px 40px;
     height: 100%; }
 
-  .col-footer {
-    width: 100%; }
-
   .slider {
     height: 750px; }
 
@@ -480,6 +530,13 @@ footer:before {
     transform: translateY(0%); }
 
   .product:hover .black {
-    opacity: 0; } }
+    opacity: 0; }
+
+  #navResponsive {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 30px; } }
 
 /*# sourceMappingURL=style.css.map */

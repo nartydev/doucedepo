@@ -46,3 +46,30 @@ nav ul li a {
     padding: 20px 0;
     background: #fff;
 }
+
+#navResponsive {
+    display: none;
+    color: #fff;
+    z-index: 100000;
+}
+
+.menu-resp {
+    display:none;
+}
+
+.menu-resp::after {
+    position:absolute;
+    top:45%;
+    width:50px;
+    background:$color-principal;
+    height:2px;
+    right:64%;
+    content:'';
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./font/BebasNeue.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
