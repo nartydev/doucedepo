@@ -409,7 +409,11 @@ h3 {
   font-size: 14px;
   color: #fff;
   text-transform: uppercase;
-  border: none; }
+  border: none;
+  cursor: pointer; }
+
+.buyButton:focus {
+  outline: none; }
 
 .true-desc ul {
   padding: 0;
@@ -1076,7 +1080,10 @@ footer:before {
     right: 10px; }
 
   .text-content-slider p {
-    width: 100%; } }
+    width: 100%; }
+
+  .made-france {
+    display: none; } }
 @media screen and (max-width: 768px) {
   .col {
     width: 100%; }

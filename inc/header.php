@@ -31,6 +31,10 @@
 	<meta property="og:title"  content="DouceDePo - Parce que votre bébé compte, la qualité de mes produits aussi">
 	<meta property="og:site_name" content="DouceDePo">
     <meta property="og:url" content="http://doucedepo.fr">
+
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.png"> 
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     
     <meta name="viewport" content="width=device-width">
 

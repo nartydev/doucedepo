@@ -322,6 +322,11 @@ h3 {
     color: #fff;
     text-transform: uppercase;
     border:none;
+    cursor:pointer;
+  }
+
+  .buyButton:focus {
+    outline: none;
   }
 
 .true-desc ul {
