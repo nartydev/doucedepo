@@ -44,7 +44,7 @@
 
 .img-local {
     background-image:url('../img/a-la-main.png');
-    width: 153px;
+    width: 108px;
     height: 108px;
 }
 
@@ -84,7 +84,7 @@ h3 {
 .cloud-bottom {
     background-image:url('../img/cloud.png');
     position: absolute;
-    bottom:-110px;
+    bottom: -118px;
     width:100%;
     height:120px;
     transform:rotateX(180deg);
@@ -211,7 +211,7 @@ h3 {
 
 .cloud-part {
     background:#fff;
-    padding:100px 0;
+    padding:40px 0;
     position:relative;
     margin:100px 0;
 }
@@ -321,6 +321,7 @@ h3 {
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
+    border:none;
   }
 
 .true-desc ul {

@@ -1,20 +1,3 @@
-const allSwitch = document.querySelectorAll('.slide-switch');
-const slide = document.querySelectorAll('.one-slide');
-
-let idSlider = 0;
-
-for(let i = 0; i < allSwitch.length; i++) {
-    allSwitch[i].addEventListener('click', () => {
-        if(allSwitch[i].getAttribute('slide-number') == slide[i].getAttribute('slide-number')) {
-            allSwitch[idSlider].classList.remove('active')
-            allSwitch[i].classList.add('active')
-            slide[idSlider].setAttribute('class', 'one-slide last-slide')
-            slide[i].setAttribute('class', 'one-slide active-slide')
-            idSlider = slide[i].getAttribute('slide-number')
-        }
-    })
-}
-
 // MENU 
 
 const header = document.querySelector('header')
@@ -27,7 +10,6 @@ if(window.innerWidth < 1000) {
 }
 
 addEventListener("scroll", () => {
-    console.log(window.innerWidth)
     if(window.innerWidth > 1000) {
         if(pageYOffset > 10) {
             header.classList.add('menu-scroll')
@@ -68,3 +50,29 @@ icon.addEventListener('click', () => {
         icon.className = "fa fa-bars";
     }    
 });
+
+// NOTIF
+
+const buyButton = document.querySelector('.buyButton')
+
+const countBasket = document.querySelector('.count-basket')
+const finalBasket = document.querySelector('.final-basket')
+let nbreArticle = 0
+
+const form = document.querySelector('form')
+
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    nbreArticle++
+    localStorage.setItem('nbreArticle', nbreArticle)
+    finalBasket.innerHTML = localStorage.getItem('nbreArticle')
+    finalBasket.classList.add('active-notif')
+    if(nbreArticle > 99) {
+        nbreArticle = 99
+    }
+    setTimeout(() => {
+        finalBasket.classList.remove('active-notif')
+        countBasket.innerHTML = nbreArticle
+    }, 1000)
+})

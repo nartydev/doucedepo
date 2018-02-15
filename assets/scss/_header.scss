@@ -21,7 +21,7 @@ nav ul li {
     padding:10px 15px;
     border-radius: 25px;
     margin-left:10px;
-    transition:.5s ease-in-out;
+    transition:.2s ease-in-out;
 }
 
 nav ul li:hover {
@@ -74,13 +74,6 @@ nav ul li a {
     content:'';
 }
 
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('../font/BebasNeue.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .menu-bar {
     display:none;
 }
@@ -93,6 +86,7 @@ nav ul li a {
     position: relative;
     width:18%;
     float:right;
+    overflow:hidden;
 }
 
 .count-basket {
@@ -107,10 +101,33 @@ nav ul li a {
     right: 10px;
 }
 
+.final-basket {
+    height:30px;width:30px;
+    background:#ffa8a8;
+    color:#fff;
+    border-radius:50%;
+    text-align:center;
+    line-height:30px;
+    position: absolute;
+    top: 16%;
+    right: -50%;
+    transition:.3s ease-in-out;
+    opacity:0;
+}
+
+.active-notif {
+    right:10%;
+    opacity:1;
+}
+
 .size-menu {
     width:43%;
 }
 
 .color-w {
+    color:#fff;
+}
+
+.menu-scroll div nav ul li:hover a {
     color:#fff;
 }
