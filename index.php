@@ -3,9 +3,11 @@
             <div class="one-slide active-slide" slide-number="0">
                 <div class="container content-slider">
                     <img src="assets/img/bavoir-1.png" alt="Slider 1" class="img-slider">
+                    <div class="promo"></div>
+                    <img src="assets/img/flag-french.png" class="made-france" alt="Drapeau français"/>
                     <div class="text-content-slider">
                         <h2 class="title-slider">UN... DEUX... TROIS MOUTONS</h2>
-                        <p>Parce que le reve est essentiel, decouvrez mes produits pour qu’il passe une bonne nuit. Ma sélection d'attaches tétines et de gigoteuses lui garantiront une nuit paisible</p>
+                        <p>Parce que le rêve est essentiel, découvrez mes produits pour qu’il passe une bonne nuit. Ma sélection d'attaches tétines et de gigoteuses lui garantiront une nuit paisible</p>
                         <a href="#" title="En savoir plus" class="button-slider">En savoir plus</a>
                     </div>
                     <div class="clear"></div>
@@ -81,7 +83,7 @@
                 <div class="desc-product">
                     <div class="title-product">Oiseau musical Au Pays des Rêves</div>
                     <div class="price-product">40.00€</div>
-                    <div class="speed-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, exercitationem. Lorem ipsum dolor sit amet.</div>
+                    <div class="speed-desc">Tendre et apaisant, ce super doudou accompagnera bébé dès ses premiers jours.</div>
                 </div> 
             </div>
             <div class="product">
@@ -90,7 +92,7 @@
                 <div class="desc-product">
                     <div class="title-product">Toudoux Lapinou Au Pays des Rêves</div>
                     <div class="price-product">20.00€</div>
-                    <div class="speed-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, exercitationem. Lorem ipsum dolor sit amet.</div>
+                    <div class="speed-desc">Ce lapin de petite taille est idéale pour que bébé l’emporte partout</div>
                 </div> 
             </div>
             <div class="product">
@@ -99,7 +101,7 @@
                 <div class="desc-product">
                     <div class="title-product">Tapis à langer nomade Au Pays des Rêves</div>
                     <div class="price-product">38.00€</div>
-                    <div class="speed-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, exercitationem. Lorem ipsum dolor sit amet.</div>
+                    <div class="speed-desc">Ce matelas à langer pliable s’emporte partout, une poche est réservée au rangement des couches.</div>
                 </div> 
             </div>
             <div class="product">
@@ -108,7 +110,7 @@
                 <div class="desc-product">
                     <div class="title-product">Attache-tétine Au Pays des Rêves</div>
                     <div class="price-product">10.00€</div>
-                    <div class="speed-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, exercitationem. Lorem ipsum dolor sit amet.</div>
+                    <div class="speed-desc">Plus de tétines qui tombent par terre, grâce à lui la tétine est fixée à bébé.</div>
                 </div> 
             </div>
             <a href="#" class="button-white">Visiter la boutique</a>

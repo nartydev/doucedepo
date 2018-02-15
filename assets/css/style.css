@@ -25,15 +25,20 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  padding: 10px 15px; }
+  padding: 10px 15px;
+  border-radius: 25px;
+  margin-left: 10px;
+  transition: .5s ease-in-out; }
+
+nav ul li:hover {
+  background: #ff8686; }
 
 nav ul li a {
   color: #fff;
   text-decoration: none; }
 
 .active {
-  border: 1px solid #FFF;
-  border-radius: 5px; }
+  border: 1px solid #FFF; }
 
 .gradient {
   background: #dd5e89;
@@ -100,7 +105,7 @@ nav ul li a {
   right: 10px; }
 
 .size-menu {
-  width: 40%; }
+  width: 43%; }
 
 .color-w {
   color: #fff; }
@@ -177,7 +182,7 @@ h3 {
 .cloud-bottom {
   background-image: url("../img/cloud.png");
   position: absolute;
-  bottom: -120px;
+  bottom: -110px;
   width: 100%;
   height: 120px;
   transform: rotateX(180deg); }
@@ -220,11 +225,11 @@ h3 {
   border-radius: 3px 3px 0 0; }
 
 .desc-product {
-  padding: 15px;
   font-weight: 500;
   overflow: hidden;
   transition: .5s;
-  background: #fff; }
+  background: #fff;
+  padding: 15px 15px 50px; }
 
 .product:hover .desc-product {
   transform: translateY(-45%);
@@ -376,10 +381,17 @@ h3 {
   width: 8%;
   padding: 10px; }
 
-.buyButton a {
-  color: white;
-  text-decoration: none;
-  text-align: left; }
+.buyButton {
+  background-color: #ff8787;
+  padding: 20px 60px;
+  font-family: "Montserrat";
+  border-radius: 50px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.23);
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase; }
 
 .true-desc ul {
   padding: 0;
@@ -403,11 +415,12 @@ h3 {
 
 .full {
   width: 28%;
-  box-shadow: none;
+  box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.08);
   height: auto; }
 
 .search-title {
-  font-weight: 600; }
+  font-weight: 600;
+  margin-top: 25px; }
 
 .search-collect {
   padding: 0;
@@ -445,6 +458,13 @@ h3 {
 
 .dark-blue {
   background: #55738f; }
+
+.product-desc {
+  padding: 10px; }
+
+.none-style {
+  text-decoration: none;
+  color: inherit; }
 
 .slider {
   height: 550px;
@@ -551,6 +571,15 @@ h2 {
   animation: translateX 1s ease-in-out 1 forwards;
   -webkit-animation: translateX 1s ease-in-out 1 forwards; }
 
+.relative {
+  position: relative; }
+
+.made-france {
+  width: 7%;
+  position: absolute;
+  bottom: -25px;
+  left: 170px; }
+
 footer {
   position: relative;
   margin: 40px 0 0 0; }
@@ -565,14 +594,12 @@ footer:before {
   height: 120px; }
 
 .col-footer {
-  width: 33.333%;
+  width: 25%;
   padding: 50px 20px; }
 
 .title-footer {
-  text-transform: uppercase;
   color: #ffa8a8;
-  text-align: center;
-  font-weight: 500; }
+  font-weight: 800; }
 
 .desc-footer {
   padding: 30px 0 0 0;

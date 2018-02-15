@@ -17,8 +17,8 @@
                 <nav class="size-menu">
                     <div class="menu-resp">Menu</div>
                     <ul>
-                        <li><a href="/index.php">Accueil</a></li>
-                        <li><a href="/collection.php">Nos collections</a></li>
+                        <li><a href="index.php">Accueil</a></li>
+                        <li><a href="products.php">Nos collections</a></li>
                         <li class="active"><a href="/compte.php">Mon compte</a></li>
                         <li class="basketIcon"><a href="/panier.php"><div class="fa fa-shopping-basket color-w"></div><div class="count-basket">0</div></a></li>
                     </ul>

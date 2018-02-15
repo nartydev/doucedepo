@@ -1,31 +1,36 @@
 <footer class="white dim-pad">
         <div class="container start">
-            <div class="col-footer">
-                <div class="title-footer">contact</div>
-                <ul class="navigation">
-                    <li><i class="fa fa-map-marker pad-map"></i> 28 rue de Reims, 93160, Noisy le Grand, FRANCE</li>
-                    <li><i class="fa fa-phone pad-phone"></i> 06 25 35 87 36</li>
-                    <li><i class="fa fa-envelope"></i> doucedepo@gmail.com</li>
-
-                </ul>
-            </div>
-            <div class="col-footer">
-                <div class="title-footer">Navigation</div>
-                <ul class="navigation">
-                    <li><i class="fa fa-angle-right"></i> <a href="#" title="Accueil">Accueil</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href="#" title="Nos collections">CGV</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href="#" title="Nos collections">Contact</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href="#" title="Nos collections">Partenaires</a></li>
-                </ul>
-            </div>
-            <div class="col-footer">
-                <div class="title-footer">Nos réseaux sociaux</div>
-                <ul class="social-network">
-                    <li class="round fb"><i class="fa fa-facebook"></i></li>
-                    <li class="round instagram"><i class="fa fa-instagram"></i></li>
-                    <li class="round pinterest"><i class="fa fa-pinterest"></i></li>
-                    <li class="round gplus"><i class="fa fa-google-plus"></i></li>
-                </ul>
+                <div class="col-footer">
+                    <div class="title-footer">A propos de moi</div>
+                    <ul class="navigation">
+                        <li><i class="fa fa-angle-right"></i> A propos de moi</li>
+                        <li><i class="fa fa-angle-right"></i> Presse</li>
+                        <li><i class="fa fa-angle-right"></i> Mon atelier artisanal</li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <div class="title-footer">Aide</div>
+                    <ul class="navigation">
+                        <li><i class="fa fa-angle-right"></i> <a href="#" title="Contact">Contactez moi</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#" title="Statut de livraison">Statut de livraison</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#" title="Information de livraison">Information de livraison</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#" title="FAQ">Foires aux questions</a></li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <div class="title-footer">Liens rapides et moyens de paiments </div>
+                    <ul class="navigation">
+                        <li><i class="fa fa-angle-right"></i> <a href="#" title="Promotions">Promotions / Offres speciales</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#" title="Cartes cadeaux">Cartes cadeaux</a></li>
+                    </ul>
+                </div>
+                <div class="col-footer">
+                    <div class="title-footer">Politique du site </div>
+                    <ul class="navigation">
+                        <li><i class="fa fa-angle-right"></i> <a href="#" title="Politique de confidentialité">Politique de confidentialité</a></li>
+                        <li><i class="fa fa-angle-right"></i> <a href="#" title="Politque des cookies">Politque des cookies</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>

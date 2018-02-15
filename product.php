@@ -3,39 +3,32 @@
         <div class="container start-no-wrap">
 			<img class="imgProduct" src="assets/img/bavoir-1.png" alt="Bavoir 1">
 			<div class="fiche">
-				<div class="productTitle">
-					BAVOIR N°1 AU PAYS DES RÊVES
-				</div>
-				<div class="productPrice">
-					€29.99
-				</div>
-				<div class="select">
-					<select name="Qtée" class ="list">
-						<option value="Qtée">Qtée...</option>
-					    <option value="1">1</option>
-					    <option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-						<option value="9">9</option>
-					</select>
-					<select name="Qtée" class ="list listColor">
-						<option value="Qtée">Couleur...</option>
-					  <option value="red">Rouge</option>
-						<option value="blue">Bleu</option>
-						<option value="yellow">Jaune</option>
-						<option value="green">Vert</option>
-					</select>
-				</div>
-				<div class="containerBuy">
-					<div class="buyButton">
-						<a href="#">AJOUTER AU PANIER <i class="fa fa-shopping-basket"></i></a> 
-					</div>
-					
-				</div>
+				<div class="productTitle">BAVOIR N°1 AU PAYS DES RÊVES</div>
+                <div class="productPrice">€29.99</div>
+                <form method="post">
+                    <div class="select">
+                        <select name="quantite" class ="list">
+                            <option value="Qtée">Qtée...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                        <select name="color" class ="list listColor">
+                            <option value="Qtée">Couleur...</option>
+                            <option value="red">Rouge</option>
+                            <option value="blue">Bleu</option>
+                            <option value="yellow">Jaune</option>
+                            <option value="green">Vert</option>
+                        </select>
+                    </div>
+                    <input type="submit" class="buyButton" value="ajouter au panier"/>
+                </form>
 				<div class="description">
 					DESCRIPTION
 				</div>

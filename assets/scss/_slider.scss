@@ -119,3 +119,14 @@ h2 {
     animation: translateX 1s ease-in-out 1 forwards;
     -webkit-animation: translateX 1s ease-in-out 1 forwards;
 }
+
+.relative {
+    position:relative;
+}
+
+.made-france {
+    width: 7%;
+    position: absolute;
+    bottom: -25px;
+    left: 170px;
+}

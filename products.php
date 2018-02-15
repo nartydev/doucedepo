@@ -18,7 +18,7 @@
                 </div>
                 <ul class="search-collect">
                     <li class="active-collect">Tout</li>
-                    <li>Bavoird</li>
+                    <li>Bavoire</li>
                     <li>Gigoteuse</li>
                     <li>Coffret naissance</li>
                     <li>Atache tétine</li>
@@ -36,53 +36,69 @@
                 <div class="round-color dark-blue"></div>
             </div>
             <div class="all-products">
-            <div class="product full">
-                <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/oiseau-2-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
-                <div class="title-product">Oiseau musical Au Pays des Rêves</div>
-                <div class="price-product">40.00€</div>
-            </div>
-            <div class="product full">
-                <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/oiseau-2-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
-                <div class="title-product">Oiseau musical Au Pays des Rêves</div>
-                <div class="price-product">40.00€</div>
-            </div>
-            <div class="product full">
-                <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/oiseau-2-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
-                <div class="title-product">Oiseau musical Au Pays des Rêves</div>
-                <div class="price-product">40.00€</div>
-            </div>
-            <div class="product full">
-                <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/oiseau-2-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
-                <div class="title-product">Oiseau musical Au Pays des Rêves</div>
-                <div class="price-product">40.00€</div>
-            </div>
-            <div class="product full">
-                <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/oiseau-2-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
-                <div class="title-product">Oiseau musical Au Pays des Rêves</div>
-                <div class="price-product">40.00€</div>
-            </div>
-            <div class="product full">
-                <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/oiseau-2-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
-                <div class="title-product">Oiseau musical Au Pays des Rêves</div>
-                <div class="price-product">40.00€</div>
-            </div>
-            <div class="product full">
-                <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/oiseau-2-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
-                <div class="title-product">Oiseau musical Au Pays des Rêves</div>
-                <div class="price-product">40.00€</div>
-            </div>
-            <div class="product full">
-                <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/oiseau-2-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
-                <div class="title-product">Oiseau musical Au Pays des Rêves</div>
-                <div class="price-product">40.00€</div>
-            </div>
-
-            <div class="product full">
-                <img src="http://www.doucedepo.fr/wp-content/uploads/2017/10/oiseau-2-300x300.jpg" class="img-product" alt="Oiseau musical Au Pays des Rêves"/>
-                <div class="title-product">Oiseau musical Au Pays des Rêves</div>
-                <div class="price-product">40.00€</div>
-            </div>
-            </div>
+                <a href="product.php" title="Produit" class="none-style product full">
+                    <img src="assets/img/items/01_attache-tetine.jpg" class="img-product" alt="Attache-tétine Au Pays des Rêves"/>
+                    <div class="product-desc">    
+                        <div class="title-product">Attache-tétine Au Pays des Rêves</div>
+                        <div class="price-product">10.00€</div>
+                    </div>
+                </a>
+                <a href="product.php" class="none-style product full" title="Produit">
+                        <img src="assets/img/items/02_bavoir-2.jpg" class="img-product" alt="Bavoir n°2 Au Pays des Rêves"/>
+                        <div class="product-desc">    
+                            <div class="title-product">Bavoir n°2 Au Pays des Rêves</div>
+                            <div class="price-product">13.00€</div>
+                        </div>
+                </a>
+                <a href="product.php" class="none-style product full" title="Produit">
+                        <img src="assets/img/items/03lapinou.jpg" class="img-product" alt="Toudoux Lapinou Mille Etoiles"/>
+                        <div class="product-desc">    
+                            <div class="title-product">Toudoux Lapinou Mille Etoiles</div>
+                            <div class="price-product">20.00€</div>
+                        </div>
+                </a>
+                <a href="product.php" class="none-style product full" title="Produit">
+                        <img src="assets/img/items/04tapis.jpg" class="img-product" alt="Tapis à langer nomade Mille Etoiles"/>
+                        <div class="product-desc">    
+                            <div class="title-product">Tapis à langer nomade Mille Etoiles</div>
+                            <div class="price-product">38.00€</div>
+                        </div>
+                </a>
+                <a href="product.php" class="none-style product full" title="Produit">
+                        <img src="assets/img/items/05lotde3.jpg" class="img-product" alt="Coffret de 3 bavoirs Ballade en Forêt"/>
+                        <div class="product-desc">    
+                            <div class="title-product">Coffret de 3 bavoirs Ballade en Forêt</div>
+                            <div class="price-product">35.00€</div>
+                        </div>
+                </a>
+                <a href="product.php" class="none-style product full" title="Produit">
+                        <img src="assets/img/items/06nuages.jpg" class="img-product" alt="Nuage musical Ballade en Forêt"/>
+                        <div class="product-desc">    
+                            <div class="title-product">Nuage musical Ballade en Forêt</div>
+                            <div class="price-product">40.00€</div>
+                        </div>
+                </a>
+                <a href="product.php" class="none-style product full" title="Produit">
+                        <img src="assets/img/items/07gigoteuse.jpg" class="img-product" alt="Gigoteuse Bouton d'Or"/>
+                        <div class="product-desc">    
+                            <div class="title-product">Gigoteuse Bouton d'Or</div>
+                            <div class="price-product">79.00€</div>
+                        </div>
+                </a>
+                <a href="product.php" class="none-style product full" title="Produit">
+                        <img src="assets/img/items/08protege.jpg" class="img-product" alt="Protège carnet de santé Bouton d'Or"/>
+                        <div class="product-desc">    
+                            <div class="title-product">Protège carnet de santé Bouton d'Or</div>
+                            <div class="price-product">28.00€</div>
+                        </div>
+                </a>
+                <a href="product.php" class="none-style product full" title="Produit">
+                        <img src="assets/img/items/09lapinou.jpg" class="img-product" alt="Toudoux Lapinou Petit Moussaillon"/>
+                        <div class="product-desc"> 
+                            <div class="title-product">Toudoux Lapinou Petit Moussaillon</div>
+                            <div class="price-product">20.00€</div>
+                        </div>
+                </a>
 		</div>
     </section>
     <section class="gradient-inverse more-product">
