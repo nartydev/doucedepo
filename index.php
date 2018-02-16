@@ -62,6 +62,7 @@
                 <div class="border-info"></div>
                 <p>
                     Tous les produits disponibles sur le site sont fabriqués à la main chez moi, tout est donc à 100% français et artisanal.
+                    Fait par une maman pour des mamans.
                 </p>
             </div>
             <div class="col">
@@ -116,7 +117,7 @@
                     <div class="speed-desc">Plus de tétines qui tombent par terre, grâce à lui la tétine est fixée à bébé.</div>
                 </div>
             </div>
-            <a href="products.php" class="button-white">Visiter la boutique</a>
+            <a href="products.php" class="button-white">Visitez ma boutique</a>
         </div>
     </section>
     <script src="assets/js/slider.js?d=<?php echo rand(0,10000000000000000) ?>"></script>

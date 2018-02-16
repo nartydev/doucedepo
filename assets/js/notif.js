@@ -19,7 +19,7 @@ form.addEventListener('submit', (e) => {
         nbreArticle = 99
     }
     setTimeout(() => {
-        finalBasket.classList.remove('active-notif')
         countBasket.innerHTML = nbreArticle
-    }, 1000)
+        finalBasket.classList.remove('active-notif')
+    }, 500)
 })

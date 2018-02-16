@@ -3,11 +3,11 @@
 <head>
 	<title>DouceDePo - Parce que votre bébé compte, la qualité de mes produits aussi</title>
 	<meta charset="utf-8"/>
-    	<!-- Content SEO -->
+    <!-- Content SEO -->
 	<meta name="subject" content="website">
 	<meta name="description" content="Vous voulez faire rêver votre petit bout, chez Douce De Po vous trouverez des produits pour nouveau né de grande qualités imaginés et fabriqués par une maman rêveuse, ancienne styliste modéliste dans le monde l'enfance.">
 
-  <!-- Rating level and Langage -->
+    <!-- Rating level and Langage -->
 	<meta name="rating" content="General">
 	<meta name="language" content="fr">
 
@@ -17,10 +17,6 @@
 	<meta name="google" content="nositelinkssearchbox">
 	<meta name="google" content="notranslate">
 
-	<!-- Mobile Data -->
-	<meta name="apple-mobile-web-app-title" content="DouceDePo">
-    <meta name="application-name" content="DouceDePo">
-    
 	<!-- Open Graph Data -->
 	<meta property="og:image:type" content="image/png">
 	<meta property="og:locale" content="fr_FR">
@@ -32,7 +28,7 @@
 	<meta property="og:site_name" content="DouceDePo">
     <meta property="og:url" content="http://doucedepo.fr">
 
-
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/img/favicon.png"> 
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     

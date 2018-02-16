@@ -116,8 +116,8 @@ nav ul li a {
 }
 
 .active-notif {
-    right:10%;
-    opacity:1;
+    animation: activeNotif 1s ease-in-out 1 forwards;
+    -webkit-animation: activeNotif 1s ease-in-out 1 forwards;
 }
 
 .size-menu {

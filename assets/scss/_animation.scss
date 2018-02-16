@@ -66,3 +66,25 @@
     }
 
 }
+
+
+@keyframes activeNotif {
+    0% {
+        right:-50%;
+        opacity:0;
+    }
+    50% {
+        right:10%;
+        opacity:1;
+    }
+
+    75% {
+        right:10%;
+        opacity:0;
+    }
+
+    100% {
+        right:-50%;
+        opacity:0;
+    }
+}
