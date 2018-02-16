@@ -85,4 +85,5 @@
             </div>
         </div>
     </section>
+    <script src="assets/js/notif.js?d=<?php echo rand(0,10000000000000000) ?>"></script>
 <?php require 'inc/footer.php' ?>
