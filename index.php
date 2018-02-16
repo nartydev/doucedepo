@@ -8,7 +8,7 @@
                     <div class="text-content-slider">
                         <h2 class="title-slider">Conçu en France</h2>
                         <p>Mes produits sont frabriqué en France, chez moi plus précisement. Des produits créés par une mère pour des mamans. Découvrez mes collections de produits pensés pour l'enfant et son confort.</p>
-                        <a href="#" title="Acheter" class="button-slider">Acheter Français</a>
+                        <a href="products.php" title="Acheter" class="button-slider">Acheter Français</a>
                     </div>
                     <div class="clear"></div>
                 </div>
